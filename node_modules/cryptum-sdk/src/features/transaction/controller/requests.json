@@ -1,0 +1,42 @@
+{
+  "sendTransaction": {
+    "method": "POST",
+    "url": "/transaction"
+  },
+  "getTransactionByHash": {
+    "method": "GET",
+    "url": "/transaction"
+  },
+  "getUTXOs": {
+    "method": "GET",
+    "url": "/transaction/utxo"
+  },
+  "callSmartContractMethod": {
+    "method": "POST",
+    "url": "/transaction/call-method"
+  },
+  "getFee": {
+    "method": "POST",
+    "url": "/fee"
+  },
+  "getBlock": {
+    "method": "GET",
+    "url": "/block"
+  },
+  "preprocess": {
+    "method": "POST",
+    "url": "/transaction/preprocess"
+  },
+  "getMetadata": {
+    "method": "POST",
+    "url": "/transaction/metadata"
+  },
+  "getPayload": {
+    "method": "POST",
+    "url": "/transaction/payload"
+  },
+  "combineSignatures": {
+    "method": "POST",
+    "url": "/transaction/combine"
+  }
+}
